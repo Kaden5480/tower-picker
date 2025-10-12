@@ -55,10 +55,9 @@ rule_difficulties = [
 # Which tower types to include in the pool
 rule_types = [
     TowerType.Steeple,
-
     TowerType.Tower,
     TowerType.Citadel,
-    ]
+]
 
 # Whether to include competed towers in the pool
 rule_include_completed = False
