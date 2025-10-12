@@ -1,0 +1,64 @@
+from tower import Area, Difficulty, TowerType
+
+# Which areas to include in the pool
+rule_areas = [
+    # Rings
+    Area.Ring0,
+    Area.Ring1,
+    Area.Ring2,
+    Area.Ring3,
+    Area.Ring4,
+    Area.Ring5,
+    Area.Ring6,
+    Area.Ring7,
+    Area.Ring8,
+    Area.Ring9,
+
+    # Zones
+    Area.Zone1,
+    Area.Zone2,
+    Area.Zone3,
+    Area.Zone4,
+    Area.Zone5,
+    Area.Zone6,
+    Area.Zone7,
+    Area.Zone8,
+    Area.Zone9,
+    Area.Zone10,
+
+    # Subrealms
+    Area.Ring1B,
+    Area.Ring2B,
+    Area.Ring4B,
+    Area.Ring5B,
+    Area.Ring6B,
+    Area.Ring8B,
+    Area.Zone2B,
+    Area.Zone3B,
+]
+
+# Which difficulties to include in the pool
+rule_difficulties = [
+    Difficulty.Easy,
+    Difficulty.Medium,
+    Difficulty.Hard,
+    Difficulty.Difficult,
+    Difficulty.Challenging,
+    Difficulty.Intense,
+    Difficulty.Remorseless,
+    Difficulty.Insane,
+    Difficulty.Extreme,
+    Difficulty.Terrifying,
+    Difficulty.Catastrophic,
+]
+
+# Which tower types to include in the pool
+rule_types = [
+    TowerType.Steeple,
+
+    TowerType.Tower,
+    TowerType.Citadel,
+    ]
+
+# Whether to include competed towers in the pool
+rule_include_completed = False
