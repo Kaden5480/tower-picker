@@ -56,6 +56,10 @@ def generate_pool() -> list[Tower]:
 def main() -> None:
     pool = generate_pool()
 
+    if len(pool) < 1:
+        print("Empty pool, can't select a tower")
+        return
+
     print(f"Randomly selected tower: {random.choice(pool)}")
 
 if __name__ == "__main__":
