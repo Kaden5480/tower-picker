@@ -47,6 +47,9 @@ def generate_pool() -> list[Tower]:
         if tower.tower_type not in rule_types:
             continue
 
+        if tower.name.lower() in rule_exclude:
+            continue
+
         pool.append(tower)
 
     print(f"Generated pool of size: {len(pool)}")

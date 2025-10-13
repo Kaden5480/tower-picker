@@ -62,3 +62,10 @@ rule_types = [
 
 # Whether to include competed towers in the pool
 rule_include_completed = False
+
+# Short names of towers to exclude from the pool (can be any case)
+rule_exclude = [
+    "TOH",
+    "totl",
+    "ToBK",
+]
