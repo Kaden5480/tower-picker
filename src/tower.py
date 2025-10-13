@@ -23,7 +23,7 @@ class Difficulty(Enum):
 
 
 class Area(Enum):
-    Ring0  = "Ring 0"
+    Ring0  = "Purgatorio"
     Ring1  = "Ring 1"
     Ring2  = "Ring 2"
     Ring3  = "Ring 3"
@@ -51,6 +51,7 @@ class Area(Enum):
     Ring5B = "Lost River"
     Ring6B = "Ashen Towerworks"
     Ring8B = "The Starlit Archives"
+    Zone1B = "Steelspire Horizon"
     Zone2B = "Arcane Area"
     Zone3B = "Paradise Atoll"
 

@@ -33,6 +33,7 @@ rule_areas = [
     Area.Ring5B,
     Area.Ring6B,
     Area.Ring8B,
+    Area.Zone1B,
     Area.Zone2B,
     Area.Zone3B,
 ]
