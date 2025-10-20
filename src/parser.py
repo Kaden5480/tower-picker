@@ -63,9 +63,8 @@ class Parser:
                 continue
 
             if line.startswith(self.area_marker):
-                line = line \
-                    .replace(self.area_marker, "", count=1) \
-                    .strip()
+                line = re.sub(self.area_marker, "", line, count=1) \
+                        .strip()
 
                 try:
                     self.current_area = Area(line)
