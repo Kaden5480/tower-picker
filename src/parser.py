@@ -48,7 +48,7 @@ class Parser:
     def parse(self) -> list[Tower]:
         towers = []
 
-        with open(self.filename, "r") as f:
+        with open(self.filename, "r", encoding="utf-8") as f:
             data = f.read()
 
         lines = data.split(self.line_sep)
